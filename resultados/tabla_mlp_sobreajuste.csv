@@ -1,0 +1,5 @@
+﻿,configuración,épocas,AUC-PR train,AUC-PR validación,brecha
+0,1. Elegida (L2 + detención temprana),16,0.4696,0.4459,0.0237
+1,2. Solo L2 (sin detención temprana),300,0.9496,0.3035,0.6462
+2,"3. Sin ninguna (alpha ≈ 0, sin detención temprana)",269,0.9735,0.2972,0.6763
+3,"4. Solo L2 fuerte (alpha = 1, sin detención temprana)",38,0.4302,0.4241,0.0061

@@ -1,0 +1,4 @@
+﻿,filas,% del total,% clase 'yes'
+train,31647,70.0,11.7
+validation,6782,15.0,11.69
+test,6782,15.0,11.69

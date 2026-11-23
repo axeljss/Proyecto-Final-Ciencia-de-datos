@@ -1,0 +1,15 @@
+# Dependencias del proyecto.
+# Con Anaconda ya vienen instaladas casi todas; solo verifica que las versiones
+# sean al menos las indicadas aquí (el notebook usa funciones de scikit-learn >= 1.2
+# y seaborn >= 0.13).
+#
+# ANTES DE ENTREGAR: fija las versiones EXACTAS de tu equipo ejecutando
+#   pip freeze > requirements.txt
+# (o, si usas conda:  conda list --export > requirements_conda.txt)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.2
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.13
+notebook>=7.0

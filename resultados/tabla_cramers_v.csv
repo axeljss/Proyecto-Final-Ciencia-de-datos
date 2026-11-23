@@ -1,0 +1,10 @@
+﻿,variable,V de Cramér,p-valor
+0,poutcome,0.312,0.00e+00
+1,month,0.26,0.00e+00
+2,contact,0.151,1.25e-225
+3,housing,0.139,2.92e-192
+4,job,0.136,3.34e-172
+5,education,0.073,1.63e-51
+6,loan,0.068,1.67e-47
+7,marital,0.066,2.15e-43
+8,default,0.022,2.45e-06

@@ -1,0 +1,16 @@
+﻿,par,r (clase no),r (clase yes),|r| máx
+0,pdays – previous,0.9898,0.9287,0.9898
+1,day – campaign,0.1534,0.047,0.1534
+2,age – balance,0.0914,0.1443,0.1443
+3,campaign – pdays,-0.0996,-0.103,0.103
+4,day – pdays,-0.1018,-0.0238,0.1018
+5,campaign – previous,-0.0956,-0.1006,0.1006
+6,day – previous,-0.0964,-0.0319,0.0964
+7,balance – previous,0.0611,0.0685,0.0685
+8,balance – pdays,0.0533,0.0559,0.0559
+9,age – campaign,0.0503,-0.0054,0.0503
+10,age – previous,-0.0237,0.0415,0.0415
+11,age – pdays,-0.0285,0.0364,0.0364
+12,balance – campaign,-0.0218,-0.0124,0.0218
+13,age – day,-0.0103,-0.0139,0.0139
+14,balance – day,-0.0029,0.0065,0.0065

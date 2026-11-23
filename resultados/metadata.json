@@ -1,0 +1,93 @@
+{
+  "semilla": 42,
+  "test_size": 0.15,
+  "val_size": 0.15,
+  "excluir_duration": true,
+  "usar_yeo_johnson": false,
+  "filas": {
+    "train": 31647,
+    "val": 6782,
+    "test": 6782
+  },
+  "proporcion_yes": {
+    "train": 0.11700951117009512,
+    "val": 0.11692716012975524,
+    "test": 0.11692716012975524
+  },
+  "columnas_numericas": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "columnas_categoricas": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "columnas_binarias": [
+    "pdays_contactado"
+  ],
+  "columnas_finales": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous",
+    "job_admin.",
+    "job_blue-collar",
+    "job_entrepreneur",
+    "job_housemaid",
+    "job_management",
+    "job_retired",
+    "job_self-employed",
+    "job_services",
+    "job_student",
+    "job_technician",
+    "job_unemployed",
+    "job_unknown",
+    "marital_divorced",
+    "marital_married",
+    "marital_single",
+    "education_primary",
+    "education_secondary",
+    "education_tertiary",
+    "education_unknown",
+    "default_yes",
+    "housing_yes",
+    "loan_yes",
+    "contact_cellular",
+    "contact_telephone",
+    "contact_unknown",
+    "month_apr",
+    "month_aug",
+    "month_dec",
+    "month_feb",
+    "month_jan",
+    "month_jul",
+    "month_jun",
+    "month_mar",
+    "month_may",
+    "month_nov",
+    "month_oct",
+    "month_sep",
+    "poutcome_failure",
+    "poutcome_other",
+    "poutcome_success",
+    "poutcome_unknown",
+    "pdays_contactado"
+  ],
+  "pesos_clase": {
+    "0": 0.5663,
+    "1": 4.2732
+  }
+}

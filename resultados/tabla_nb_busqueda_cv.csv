@@ -1,0 +1,47 @@
+﻿,variante,hiperparámetros,AUC-PR (CV) media,desv. estándar,ranking (dentro de la variante)
+0,A · GaussianNB (estandarizado + one-hot),var_smoothing = 1e-09,0.3339,0.0208,3
+1,A · GaussianNB (estandarizado + one-hot),var_smoothing = 1e-07,0.3339,0.0208,4
+2,A · GaussianNB (estandarizado + one-hot),var_smoothing = 1e-05,0.3338,0.0208,5
+3,A · GaussianNB (estandarizado + one-hot),var_smoothing = 0.001,0.3351,0.0196,2
+4,A · GaussianNB (estandarizado + one-hot),var_smoothing = 0.01,0.3502,0.025,1
+5,A · GaussianNB (estandarizado + one-hot),var_smoothing = 0.1,0.2864,0.0249,6
+6,A · GaussianNB (estandarizado + one-hot),var_smoothing = 0.3,0.2514,0.0207,7
+7,A · GaussianNB (estandarizado + one-hot),var_smoothing = 1,0.2324,0.018,8
+8,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 1e-09,0.3356,0.0191,4
+9,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 1e-07,0.3356,0.0191,5
+10,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 1e-05,0.3356,0.0192,6
+11,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 0.001,0.337,0.0193,3
+12,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 0.01,0.3638,0.017,1
+13,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 0.1,0.3415,0.0123,2
+14,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 0.3,0.3214,0.0153,7
+15,B · GaussianNB (Yeo-Johnson + one-hot),var_smoothing = 1,0.2999,0.0171,8
+16,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 3",0.3821,0.0153,11
+17,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 4",0.386,0.016,1
+18,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 5",0.3848,0.016,6
+19,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 7",0.3605,0.0158,26
+20,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 10",0.3692,0.0161,16
+21,C · CategoricalNB (numéricas discretizadas),"alpha = 0.1, n_bins = 20",0.3622,0.0152,21
+22,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 3",0.382,0.0154,12
+23,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 4",0.386,0.016,2
+24,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 5",0.3848,0.0159,7
+25,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 7",0.3604,0.0158,27
+26,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 10",0.3692,0.0161,17
+27,C · CategoricalNB (numéricas discretizadas),"alpha = 0.5, n_bins = 20",0.3622,0.0152,22
+28,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 3",0.382,0.0154,13
+29,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 4",0.386,0.016,3
+30,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 5",0.3847,0.0159,8
+31,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 7",0.3603,0.0158,28
+32,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 10",0.3691,0.0161,18
+33,C · CategoricalNB (numéricas discretizadas),"alpha = 1, n_bins = 20",0.3621,0.0152,23
+34,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 3",0.3819,0.0154,14
+35,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 4",0.3859,0.0159,4
+36,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 5",0.3847,0.0159,9
+37,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 7",0.3602,0.0157,29
+38,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 10",0.3689,0.0161,19
+39,C · CategoricalNB (numéricas discretizadas),"alpha = 2, n_bins = 20",0.3618,0.0151,24
+40,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 3",0.3817,0.0153,15
+41,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 4",0.3856,0.0157,5
+42,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 5",0.3844,0.0159,10
+43,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 7",0.3599,0.0157,30
+44,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 10",0.3684,0.0159,20
+45,C · CategoricalNB (numéricas discretizadas),"alpha = 5, n_bins = 20",0.3612,0.0151,25
